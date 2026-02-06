@@ -9,6 +9,10 @@ def login(username, password):
         print("Invalid credentials")
 
 login("admin", "1234")
+<<<<<<< HEAD
+=======
+
+>>>>>>> login-feature
 
 def add_student(name, age, course):
     student = {
@@ -23,7 +27,7 @@ def view_students():
     if len(students) == 0:
         print("No students registered")
     else:
-        print("Registered Students:")
+         print("Registered Students:")
         for s in students:
             print(s["name"], "-", s["course"])
 
