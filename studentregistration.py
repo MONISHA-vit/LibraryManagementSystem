@@ -2,6 +2,13 @@
 # Initial existing code - Student Registration Module
 
 students = []
+def login(username, password):
+    if username == "admin" and password == "1234":
+        print("Login successful")
+    else:
+        print("Invalid credentials")
+
+login("admin", "1234")
 
 def add_student(name, age, course):
     student = {
@@ -22,14 +29,6 @@ def view_students():
 
 students = []
 
-def add_student(name, age):
-    student = {"name": name, "age": age}
-    students.append(student)
-    print("Student added successfully")
-
-def view_students():
-    for s in students:
-        print(s)
 
 print("daily update test")
 
