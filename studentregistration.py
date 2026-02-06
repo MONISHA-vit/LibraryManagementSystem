@@ -27,6 +27,7 @@ def view_students():
 
 students = []
 
+print("Main and Login feature merged")
 
 print("daily update test")
 
