@@ -22,7 +22,7 @@ def view_students():
         print("No students registered")
     else:
          print("Registered Students:")
-        for s in students:
+    for s in students:
             print(s["name"], "-", s["course"])
 
 students = []
