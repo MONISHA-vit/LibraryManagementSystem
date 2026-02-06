@@ -29,7 +29,9 @@ students = []
 
 print("Main and Login feature merged")
 
-print("daily update test")
+print("daily update1 test")
+print("LOGIN VERSION")
+
 
 # Sample execution
 add_student("Arun", 20, "BCA")
