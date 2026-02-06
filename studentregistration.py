@@ -7,13 +7,7 @@ def login(username, password):
         print("Login successful")
     else:
         print("Invalid credentials")
-
-login("admin", "1234")
-<<<<<<< HEAD
-=======
-
->>>>>>> login-feature
-
+        
 def add_student(name, age, course):
     student = {
         "name": name,
