@@ -25,7 +25,7 @@ def view_students():
         print("No students registered")
     else:
          print("Registered Students:")
-        for s in students:
+    for s in students:
             print(s["name"], "-", s["course"])
 
 students = []
@@ -39,7 +39,9 @@ def view_students():
     for s in students:
         print(s)
 
-print("daily update test")
+print("daily update1 test")
+print("LOGIN VERSION")
+
 
 # Sample execution
 add_student("Arun", 20, "BCA")
