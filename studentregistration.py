@@ -7,7 +7,7 @@ def login(username, password):
         print("Login successful")
     else:
         print("Invalid credentials")
-        
+          
 def add_student(name, age, course):
     student = {
         "name": name,
