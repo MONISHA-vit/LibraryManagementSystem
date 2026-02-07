@@ -27,12 +27,11 @@ def view_students():
 
 students = []
 
+# Sample execution
+add_student("Arun", 20, "BCA")
+view_students()
+
 print("Main and Login feature merged")
 
 print("daily update1 test")
 print("LOGIN VERSION")
-
-
-# Sample execution
-add_student("Arun", 20, "BCA")
-view_students()
